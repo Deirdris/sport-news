@@ -1,0 +1,17 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$mynewcolor: #ff6a00;
+
+
+
+.btn-outline-orangered {
+  @include button-outline-variant($mynewcolor, $color-hover: #fff, $active-color: #fff);
+}
+
+.bg-comment {
+  background-color: #212121;
+}
+
+.bg-black {
+  background-color: black;
+}
